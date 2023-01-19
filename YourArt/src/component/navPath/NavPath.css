@@ -1,0 +1,25 @@
+.nav-path-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-path-container * {
+    color: gray;
+}
+
+.nav-path-artist-name {
+    margin-right: 2rem;
+}
+
+.nav-path-image-title {
+    font-weight: bold;
+    color: black;
+}
+
+.nav-path-arrow {
+    transform: rotate(180deg);
+}
+
+.home {
+    cursor: pointer;
+}

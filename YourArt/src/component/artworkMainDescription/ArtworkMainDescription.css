@@ -1,0 +1,113 @@
+.artwork-main-container {
+    width: 100%;
+    display: flex;
+    margin: 1rem;
+}
+
+.artwork-main-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+
+.artwork-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-cta {
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-cta-item {
+    cursor: pointer;
+}
+
+.smsm-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-info {
+    padding: 1rem;
+}
+
+.image-info-details {
+    margin-bottom: 3rem;
+}
+
+.image-title {
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.artist-info {
+    display: flex;
+    font-weight: bold;
+}
+
+.artist-name {
+    color: orange;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.artist-country {
+    color: gray;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    font-size: xxx-large;
+    margin-bottom: 2rem;
+}
+
+.button-cta > * {
+    margin-bottom: 1rem;
+}
+
+.button {
+    width: 100%;
+    height: 5rem;
+    cursor: pointer;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.button.acquire {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: black;
+}
+
+.button.offer {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: white;
+}
+
+.fav {
+color: gray;
+cursor: pointer;
+}
+
+.inputs {
+    padding: 1rem;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.inputs * {
+    height: 2rem;
+}

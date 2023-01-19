@@ -1,0 +1,9 @@
+.foldable-section-container {
+    width: 100%;
+    border-bottom: solid gray;
+}
+
+.foldable-section-title {
+    margin:  1rem 0;
+    cursor: pointer;
+}

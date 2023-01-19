@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "artworks": "Artworks",
+  "viewInARoom": "view in a room",
+  "arView": "ar view",
+  "size": "{{width}} W x {{height}} H x {{depth}} D in",
+  "categoryCreationYear": "{{category}}, {{creationYear}}",
+  "preReserveMsg": "pre-reserve for 24 hours",
+  "deliveryFee.estimation": "{{delivreyFee}}€ estimated delivery fee for {{shippingCountry}}",
+  "deliveryFee.description": "In order to obtain an accurate delivery fee, please enter your country of residence and zip code:",
+  "deliveryFee.title": "Delivery fee is {{price}} €",
+  "pickup.title": "Free pickup in {{city}}, {{country}}",
+  "trial.title": "Try 14 days at home for free",
+  "acquire": "Acquire",
+  "makeAnOffer": "Make an offer",
+  "description": "Description",
+  "Subject": "Subject",
+  "Medium": "Medium",
+  "Style": "Style",
+  "Materials": "Materials"
+}

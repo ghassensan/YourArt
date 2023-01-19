@@ -1,0 +1,38 @@
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-inner-container {
+    display: flex;
+    overflow: auto;
+    width: 90%;
+}
+
+.image-inner-container img {
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    object-fit: fill;
+}
+
+.arrow {
+    width: 3em;
+    height: 3em;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.arrow * {
+    width: 3em;
+    height: 3em;
+}
+
+.arrow.visible {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.arrow.right {
+    transform: rotate(180deg);
+}
